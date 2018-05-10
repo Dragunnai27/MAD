@@ -12,11 +12,9 @@ namespace MyAwesomeDiary.Model
         [Key]
         public string UserId { get; set; }
         [Required]
+        [MinLength(8)]
         public string Pass { get; set; }
-        [StringLength(20, ErrorMessage = "invalid int",MinimumLength = 5)]
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public DateTime BirthDate { get; set; }
-        public int Age { get; set; }
     }
 }

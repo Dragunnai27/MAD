@@ -90,6 +90,7 @@
   <ItemGroup>
     <Compile Include="Model\MyAweSomeDiaryContext.cs" />
     <Compile Include="Model\User.cs" />
+    <Compile Include="Model\UserDetail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
